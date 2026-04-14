@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "UNICEF Youth Education Report"
+  navbar:
+    left:
+      - href: report.html
+        text: "📊 Report"
+
+format:
+  html:
+    theme: flatly
+    css: custom.css
